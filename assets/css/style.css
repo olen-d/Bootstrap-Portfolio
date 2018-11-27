@@ -7,6 +7,7 @@ h1 {
 
 .jumbotron_top  {
     background: #cccccc;
+    margin-top: 100px;
 }
 
 .footer {
@@ -15,7 +16,20 @@ h1 {
 }
 
 .social {
+    color:#ffffff;
     font-size: 2rem;
+}
+
+.social a:link  {
+    color: #ffffff;
+}
+
+.social a:visited{
+    color: #ffffff;
+}
+
+.social a:hover {
+    color: #4aaaa5;
 }
 
 .copyright  {
@@ -27,4 +41,9 @@ h1 {
 
 .main-content   {
     margin-bottom: 125px;
+}
+
+.left   {
+    float:left;
+    margin-right: 20px;
 }
